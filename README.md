@@ -21,7 +21,7 @@ A simple stencil plugin that allows you to embed your fonts as base64 encode url
 ## Install 
 
 ```sh
-npm i @dcylabs/stencil-css-url-to-base64
+npm i --save @dcylabs/stencil-css-url-to-base64
 ```
 
 ## Usage 
