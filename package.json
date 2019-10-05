@@ -1,6 +1,6 @@
 {
   "name": "@dcylabs/stencil-css-url-to-base64",
-  "version": "0.0.1",
+  "version": "0.0.1-SNAPSHOT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -16,10 +16,11 @@
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
     "rollup": "^1.23.1",
-    "ts-jest": "^24.1.0"
-  },
-  "dependencies": {
+    "ts-jest": "^24.1.0",
+    "@stencil/core": "^1.5.4",
     "@types/node": "^12.7.11",
     "typescript": "^3.6.3"
+  },
+  "dependencies": {
   }
 }
