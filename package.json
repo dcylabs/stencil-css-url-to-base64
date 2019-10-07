@@ -10,7 +10,8 @@
   "scripts": {
     "test": "jest",
     "rollup": "rollup -c rollup.config.js",
-    "build": "tsc && npm run rollup && npm run test"
+    "build": "tsc && npm run rollup && npm run test", 
+    "publish": "npm run build && npm publish --access public"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
@@ -22,5 +23,16 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-  }
+  },
+  "author": "dcylabs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcylabs/stencil-css-url-to-base64.git"
+  },
+  "keywords": [
+    "stencil", 
+    "css",
+    "url",
+    "base64"
+  ]
 }
